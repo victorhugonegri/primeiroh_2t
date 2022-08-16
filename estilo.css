@@ -33,3 +33,14 @@ li a:hover {
    color: black;
    background: rgb(156, 228, 212);
 }
+#o melhor {
+  width: 20%;
+}
+.caixamelhor{
+  position: absolute;
+  top: 45px;
+  left: 0;
+  height: 120px;
+  background-color: black;
+  margin: 20px;
+}
