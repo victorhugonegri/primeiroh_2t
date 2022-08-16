@@ -43,4 +43,11 @@ li a:hover {
   height: 120px;
   background-color: black;
   margin: 20px;
+  border-width: 20px;
+  border-color: blue;
+  border-style: solid;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+
 }
