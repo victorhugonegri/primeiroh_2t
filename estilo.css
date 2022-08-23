@@ -1,21 +1,53 @@
-body {
-  background-color: rgb(187, 187, 185)
+body { 
+ background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
 }
- 
-h1 {
-  text-align: center;
-  position: absolute;
-  top: 40px;
-  width: 100%;
-  height: 120px;
+h1 { 
+   position: absolute;
+	top: 90px;
+	text-align: center;
+   width: 100%;
+   height: 45px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2 {
+position: absolute;
+	top: 1200px;
+	text-align: center;
+   width: 100%;
+   height: 45px;
+   font-family: 'Lucida Sans';
+}
+ p{
+text-indent: 1.5em; 
+margin: 60px;
+ position: relative;
+ top: 130px;
+	left: 300px;
+        width: 50%;
+        height: auto;
+	font-family:'Lucida Sans';
+	text-align: justify;
+}
+.dinheiro {
+text-indent: 1.5em; 
+margin: 60px;
+ position: relative;
+ top: 200px;
+	left: 300px;
+        width: 50%;
+        height: auto;
+	font-family:'Lucida Sans';
+	text-align: justify;
 }
 .menuPrincipal {
    position: absolute;
    top: 0;
    left: 0;
-   width: 100%; 
+   width: 100%;
    height: 45px;
-   background: rgb(37, 54, 41);
+   background: rgb(223, 166, 9);
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 nav ul {
@@ -35,36 +67,240 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-   color: black;
-   background: rgb(156, 228, 212);
+   color: rgb(161, 119, 41);
+   background: rgb(255, 208, 0);
 }
-#o melhor {
-  width: 20%;
+#armilar {
+   width: 100%;
 }
-.caixamelhor{
-  position: absolute;
-  top: 45px;
-  left: 0;
-  height: 120px;
-  background-color: black;
-  margin: 20px;
-  border-width: 20px;
-  border-color: blue;
-  border-style: solid;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-
+#imperio {
+   width: 100%;
 }
-.rodape{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 35px;
-  background-color: black;
-  color: antiquewhite;
+#republica {
+   width: 100%;
 }
-.conteudo{
-  position: absolute;
-  top: 45px;
+#PedroA {
+   width: 100%;
+}
+#descobrimento {
+  width: 100%
+}
+#tratado {
+  width: 100%
+}
+#joao {
+  width: 100%
+}
+#pedroi {
+  width: 100%
+}
+#pedroii {
+  width: 100%
+}
+#independencia {
+  width: 100%
+}
+#coroacao {
+  width: 100%
+}
+#getulio {
+  width: 100%
+}
+#juscelino {
+  width: 100%
+}
+#jango {
+  width: 100%
+}
+#collor {
+  width: 100%
+}
+#lula {
+  width: 100%
+}
+#Bolsonaro {
+  width: 100%
+}
+.Armilar {
+    position: absolute;
+    top: 3px;
+    right: 20px;
+    width: 55px;
+    height: 55px;
+}
+.Imperio {
+position: absolute;
+    top: 3px;
+    right: 20px;
+    width: 58px;
+    height: 55px;
+}
+.Republica {
+    position: absolute;
+    top: 3px;
+    right: 20px;
+    width: 54px;
+    height: 55px;
+}
+.PedroA {
+position: absolute;
+    top: 100px;
+    right: 15px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+    font-family: Perpetua;
+}
+.Descobrimento {
+position: absolute;
+    top: 250px;
+    left: 15px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.Tratado {
+position: absolute;
+    top: 560px;
+    right: 15px;
+    width: 250px;
+    height: auto;
+    text-align: center;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.Joao {
+position: absolute;
+    top: 670px;
+    left: 15px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.pedroI {
+position: absolute;
+    top: 100px;
+    right: 15px;
+    width: 250px;
+    height: auto;
+    text-align: center;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.pedroII {
+position: absolute;
+    top: 550px;
+    left: 15px;
+    width: 250px;
+    height: auto;
+    text-align: center;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.Independencia {
+position: absolute;
+    top: 240px;
+    left: 15px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.Coroacao {
+position: absolute;
+    top: 520px;
+    right: 15px;
+    width: 260px;
+    height: auto;
+    text-align: center;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.Getulio {
+position: absolute;
+    top: 100px;
+    right: 15px;
+    width: 260px;
+    height: auto;
+    text-align: center;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.Juscelino {
+position: absolute;
+    top: 100px;
+    left: 15px;
+    width: 260px;
+    height: auto;
+    text-align: center;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.Jango {
+position: absolute;
+    top: 610px;
+    right: 15px;
+    width: 260px;
+    height: auto;
+    text-align: center;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.Collor {
+position: absolute;
+    top: 610px;
+    left: 15px;
+    width: 260px;
+    height: auto;
+    text-align: center;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.Bolsonaro {
+position: absolute;
+    top: 1110px;
+    left: 15px;
+    width: 260px;
+    height: auto;
+    text-align: center;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.Lula {
+position: absolute;
+    top: 1110px;
+    right: 15px;
+    width: 260px;
+    height: auto;
+    text-align: center;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+footer{
+	position: absolute;
+	width: 100%;
+	top: 400%;
+	text-align: center;
+	background: green;
 }
