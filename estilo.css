@@ -1,7 +1,16 @@
-body { 
- background-color: rgb(255, 255, 255);
-  margin: 0;
-  padding: 0;
+html,body {
+    height: 100%; 
+    padding: 0;
+    margin: 0;
+}
+
+body {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   width: 100%;
+   height: 100%;
 }
 h1 { 
    position: absolute;
@@ -9,34 +18,34 @@ h1 {
 	text-align: center;
    width: 100%;
    height: 45px;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-family: 'Lucida Sans';
 }
 h2 {
-position: absolute;
-	top: 1200px;
+margin-top: 60px;
+position: relative;
+	top: 110px;
 	text-align: center;
-   width: 100%;
-   height: 45px;
+   width: auto;
+   height: auto;
    font-family: 'Lucida Sans';
+}
+h4 {
+   font-family: 'Felix Titling';
 }
  p{
 text-indent: 1.5em; 
-margin: 60px;
+margin: 0 auto;
+ padding-top: 60px;
  position: relative;
  top: 130px;
-	left: 300px;
         width: 50%;
         height: auto;
 	font-family:'Lucida Sans';
 	text-align: justify;
 }
-.dinheiro {
-text-indent: 1.5em; 
-margin: 60px;
- position: relative;
- top: 200px;
-	left: 300px;
-        width: 50%;
+.algarves {
+text-indent: 1.5em;
+ padding-top: 60px;
         height: auto;
 	font-family:'Lucida Sans';
 	text-align: justify;
@@ -146,19 +155,18 @@ position: absolute;
 position: absolute;
     top: 100px;
     right: 15px;
-    width: auto;
+    width: 250px;
     height: auto;
     text-align: center;
     border-width: 10px;
     border-style: solid;
     border-color: black;
-    font-family: Perpetua;
 }
 .Descobrimento {
 position: absolute;
     top: 250px;
     left: 15px;
-    width: 300px;
+    width: 270px;
     height: auto;
     text-align: center;
     border-width: 10px;
@@ -180,7 +188,7 @@ position: absolute;
 position: absolute;
     top: 670px;
     left: 15px;
-    width: 300px;
+    width: 270px;
     height: auto;
     text-align: center;
     border-width: 10px;
@@ -213,7 +221,7 @@ position: absolute;
 position: absolute;
     top: 240px;
     left: 15px;
-    width: 300px;
+    width: 260px;
     height: auto;
     text-align: center;
     border-width: 10px;
@@ -297,10 +305,106 @@ position: absolute;
     border-style: solid;
     border-color: black;
 }
-footer{
-	position: absolute;
-	width: 100%;
-	top: 400%;
-	text-align: center;
-	background: green;
+.video1{
+  margin-top: 180px;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+ }
+.video2{
+  margin-top: 180px;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+ }
+.video3{
+  margin-top: 180px;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+ }
+.PedroA:hover{
+color: #002776;
+text-decoration: none;
+border-color: #002776;
+}
+.Descobrimento:hover{
+color: #002776;
+text-decoration: none;
+border-color: #002776;
+}
+.Joao:hover{
+color: #002776;
+text-decoration: none;
+border-color: #002776;
+}
+.Tratado:hover{
+color: #002776;
+text-decoration: none;
+border-color: #002776;
+}
+.pedroI:hover{
+color: #002776;
+text-decoration: none;
+border-color: #002776;
+}
+.pedroII:hover{
+color: #002776;
+text-decoration: none;
+border-color: #002776;
+}
+.Independencia:hover{
+color: #002776;
+text-decoration: none;
+border-color: #002776;
+}
+.Coroacao:hover{
+color: #002776;
+text-decoration: none;
+border-color: #002776;
+}
+.Getulio:hover{
+color: #002776;
+text-decoration: none;
+border-color: #002776;
+}
+.Juscelino:hover{
+color: #002776;
+text-decoration: none;
+border-color: #002776;
+}
+.Collor:hover{
+color: #002776;
+text-decoration: none;
+border-color: #002776;
+}
+.Jango:hover{
+color: #002776;
+text-decoration: none;
+border-color: #002776;
+}
+.Bolsonaro:hover{
+color: #002776;
+text-decoration: none;
+border-color: #002776;
+}
+.Lula:hover{
+color: #002776;
+text-decoration: none;
+border-color: #002776;
+}
+a, h3:link{
+color: black;
+text-decoration: none;
+}
+a, h3:visited{
+color: black;
+text-decoration: none;
+}
+ footer {
+background: #009c3b;
+text-align: center;
 }
